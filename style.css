@@ -26,6 +26,7 @@
 
 @media screen and (max-width:1000px) and (min-width:800px) {}
 
+
 .z__index__navbar {
     z-index: 999;
 }
@@ -51,4 +52,13 @@
     height: 50px;
     border: 1px solid;
     border-radius: 2px;
+}
+
+.shadow__generator {
+    max-width: 400px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
+}
+.text__shadow {
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.3);
+
 }
