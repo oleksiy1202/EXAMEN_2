@@ -44,7 +44,7 @@
     position: fixed;
 }
 
-.card-position {
+.card-position__1 {
     position: absolute;
     top: -20px;
     left: 15px;
@@ -58,7 +58,15 @@
     max-width: 400px;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.35);
 }
-.text__shadow {
-    text-shadow: 4px 4px 2px rgba(0,0,0,0.3);
 
+.text__shadow {
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.card-position__2 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    height: 40%;
+    width: 90%;
 }
