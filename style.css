@@ -1,0 +1,47 @@
+@media screen and (min-width:800px) {
+    .menu_burger_fixed {
+        display: none;
+    }
+}
+
+@media screen and (max-width:801px) {
+    .menu_fixed {
+        display: none;
+    }
+
+    * {
+        margin: 2px;
+    }
+
+    .content__padding {
+        padding-top: 75px;
+    }
+
+    .menu_burger_fixed {
+        width: 100%;
+        height: 60px;
+        position: fixed;
+    }
+}
+
+
+
+
+@media screen and (max-width:1000px) and (min-width:800px) {}
+
+.z__index__navbar {
+    z-index: 999;
+}
+
+
+.bg__pink {
+    background-color: pink;
+}
+
+.button-hover:hover {
+    background-color: pink;
+}
+
+.menu_fixed {
+    position: fixed;
+}
