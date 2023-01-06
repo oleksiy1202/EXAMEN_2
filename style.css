@@ -24,13 +24,9 @@
     }
 }
 
-@media screen and (max-width:1000px) and (min-width:800px) {}
-
-
 .z__index__navbar {
     z-index: 999;
 }
-
 
 .bg__pink {
     background-color: pink;
@@ -65,8 +61,20 @@
 
 .card-position__2 {
     position: absolute;
-    top: 20px;
+    top: 0px;
     left: 50%;
-    height: 40%;
+    height: 30%;
     width: 90%;
+}
+
+.card__padding {
+    padding-top: 5%;
+}
+
+.card__padding__bottom {
+    padding-bottom: 10%;
+}
+
+.text__decor__none {
+    text-decoration: none;
 }
